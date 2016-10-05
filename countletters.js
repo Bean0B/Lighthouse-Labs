@@ -5,8 +5,7 @@ var noSpaces = input.replace(/ /g,'');
 var objletters = {};
 
 for (var i = 0 ; i < noSpaces.length; i++) {
- // lighthouse[i]
-  //console.log(noSpaces[i]);
+
   objletters[noSpaces[i]] = 0 ;
 }
 
